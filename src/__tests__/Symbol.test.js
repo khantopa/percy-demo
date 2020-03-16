@@ -1,4 +1,4 @@
-import Symbol from '../components/symbol/Symbol';
+import Symbol from '../components/Symbol';
 
 let wrapper, props;
 

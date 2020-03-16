@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import App from '../App';
-import Mode from '../components/mode/Mode';
-import Board from '../components/board/Board';
+import Mode from '../components/Mode';
+import Board from '../components/Board';
 
 let wrapper, router;
 

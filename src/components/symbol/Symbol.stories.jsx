@@ -6,4 +6,4 @@ export default {
   component: Symbol
 }
 
-export const symbol = () => <div style={{ width: 50}}><Symbol symbol="play" /></div>
+export const symbol = () => <div style={{ width: 50, height: 50}}><Symbol symbol="play" /></div>

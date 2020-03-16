@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import Mode from '../components/mode/Mode';
+import Mode from '../components/Mode';
 
 let wrapper;
 

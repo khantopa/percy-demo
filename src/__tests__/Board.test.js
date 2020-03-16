@@ -1,5 +1,5 @@
-import Board from '../components/board/Board';
-import Player from '../components/player/Player';
+import Board from '../components/Board';
+import Player from '../components/Player';
 
 
 let wrapper, props, state, runButton, player1, player2, winner;

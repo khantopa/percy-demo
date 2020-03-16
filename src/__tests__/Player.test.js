@@ -1,5 +1,5 @@
-import Player from '../components/player/Player';
-import Symbol from '../components/symbol/Symbol';
+import Player from '../components/Player';
+import Symbol from '../components/Symbol';
 
 let wrapper, props;
 
