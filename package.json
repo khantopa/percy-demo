@@ -18,7 +18,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "snapshot": "build-storybook && percy-storybook --widths=320,1280"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +39,7 @@
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@percy/agent": "^0.25.0",
+    "@percy/storybook": "^3.3.0",
     "@storybook/addon-actions": "^5.3.17",
     "@storybook/addon-docs": "^5.3.17",
     "@storybook/addon-knobs": "^5.3.17",
