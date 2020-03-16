@@ -1,0 +1,12 @@
+@import '../../styles/main.scss';
+
+
+.symbol { 
+  box-sizing: border-box;
+  background: $primary-light center/60% no-repeat;
+  height: 100%;
+  width: 100%;
+  border: 3px solid $light;
+  border-radius: 50%;
+  box-shadow: inset 0 5px 10px 4px rgba(0, 0, 0, .35);
+}

@@ -1,0 +1,80 @@
+@import '../../styles/main.scss';
+
+.play {
+  width: 100%;
+  height: 100vh;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  &_title {
+    text-align: center;
+    color: $light;
+  }
+  &_board {
+    position: relative;
+    padding: 20px 40px;
+    height: 300px;  
+    &_players {
+      @include grid(2);
+      color: $light;
+      margin-bottom: 20px;
+    }
+    &_result {
+      text-align: center;
+      animation: fadeIn .5s ease;
+      color: $light;
+      font-size: 20px;
+      font-weight: bolder;
+    }
+  }
+  &_button { 
+    width: 300px;
+    margin: 10px auto;
+    @include grid(3);
+    grid-gap: 10px;
+    &_item {
+     @extend .icon_button;
+    }
+  }
+  &_text {
+    text-align: center;
+    color: black;
+    font-size: bolder;
+  }
+  &_run {
+    @include grid(1);
+    &_button {
+      @extend .icon_button;
+    }
+  }
+  &_footer {
+    width: 100%;
+    margin-top: 20px; 
+    box-sizing: border-box;
+    @include grid(2);
+    grid-gap: 20px;
+    &_button {
+      @extend .button;
+      width: 200px;
+      background: $dark;
+      &.reset {
+        background: $secondary;
+      }
+    }
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .play {
+    width: 100vw;
+    padding: 2px;
+    &_board {
+      padding: 20px 0;
+      height: 230px;
+    }
+    &_footer {
+      margin-top: 40px;
+      @include grid(1);
+      grid-gap: 10px;
+    }
+  }
+}

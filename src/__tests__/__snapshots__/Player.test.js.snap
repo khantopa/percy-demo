@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Player> renders <Player> without crashing 1`] = `
+<div
+  className="player"
+>
+  <h5
+    className="player_type"
+  >
+    :  
+    <span
+      className="player_score"
+    >
+       
+        
+    </span>
+  </h5>
+  <Symbol
+    color="#D8EEF2"
+    symbol=""
+  />
+</div>
+`;

@@ -1,0 +1,14 @@
+// MIXIN FOR GRID
+@mixin grid ($col){
+  display: grid;
+  grid-template-columns: repeat($col, 1fr);
+  place-items: center;
+}
+
+// MIXIN FOR POSITIONING
+
+@mixin absPosition($x,$y) {
+  position: absolute;
+  top: $y;
+  left: $x;
+}

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Symbol> renders <Symbol> without crashing 1`] = `
+<div
+  className="symbol"
+  style={
+    Object {
+      "backgroundColor": "#D8EEF2",
+      "backgroundImage": "url(../../../assets/.png)",
+    }
+  }
+/>
+`;

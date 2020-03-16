@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Mode> renders <Mode> without crashing 1`] = `
+<div
+  className="mode"
+>
+  <h2
+    className="mode_head"
+  >
+    Select your play mode
+  </h2>
+  <div
+    className="mode_group"
+  >
+    <Link
+      className="mode_group_button"
+      key="Player vs Computer"
+      role="button"
+      to={
+        Object {
+          "pathname": "/play",
+          "state": Object {
+            "mode": "Player vs Computer",
+          },
+        }
+      }
+    >
+      Player vs Computer
+    </Link>
+    <Link
+      className="mode_group_button"
+      key="Computer vs Computer"
+      role="button"
+      to={
+        Object {
+          "pathname": "/play",
+          "state": Object {
+            "mode": "Computer vs Computer",
+          },
+        }
+      }
+    >
+      Computer vs Computer
+    </Link>
+  </div>
+</div>
+`;

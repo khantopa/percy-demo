@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Board> renders <Board> without crashing 1`] = `
+<div
+  className="play"
+>
+  <h3
+    className="play_title"
+  >
+    Player vs Computer
+  </h3>
+  <div
+    className="play_board"
+  >
+    <div
+      className="play_board_players"
+    >
+      <Player
+        player={
+          Object {
+            "name": "User",
+            "score": 0,
+            "symbol": "",
+            "type": "user",
+          }
+        }
+      />
+      <Player
+        player={
+          Object {
+            "name": "Computer",
+            "score": 0,
+            "symbol": "",
+            "type": "computer",
+          }
+        }
+      />
+    </div>
+    <br />
+    <br />
+    <div
+      className="play_board_result"
+    >
+      <p
+        className="play_board_result_text"
+      >
+        Start a new Game
+      </p>
+    </div>
+  </div>
+  <p
+    className="play_text"
+  >
+    Choose any to play:
+  </p>
+  <div
+    className="play_button"
+  >
+    <button
+      className="play_button_item "
+      disabled={false}
+      key="rock"
+      onClick={[Function]}
+    >
+      <Symbol
+        color="#FFFEFC"
+        symbol="rock"
+      />
+    </button>
+    <button
+      className="play_button_item "
+      disabled={false}
+      key="paper"
+      onClick={[Function]}
+    >
+      <Symbol
+        color="#FFFEFC"
+        symbol="paper"
+      />
+    </button>
+    <button
+      className="play_button_item "
+      disabled={false}
+      key="scissors"
+      onClick={[Function]}
+    >
+      <Symbol
+        color="#FFFEFC"
+        symbol="scissors"
+      />
+    </button>
+  </div>
+  <div
+    className="play_footer"
+  >
+    <Link
+      className="play_footer_button change_mode"
+      to="/"
+    >
+      CHANGE MODE
+    </Link>
+    <button
+      className="play_footer_button reset"
+      onClick={[Function]}
+    >
+      RESET
+    </button>
+  </div>
+</div>
+`;

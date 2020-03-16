@@ -1,0 +1,33 @@
+@import '../../styles/main.scss';
+
+.mode {
+  width: 300px;
+  height: 300px;
+  box-sizing: border-box;
+  @include absPosition(50%, 25%);
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 10px;
+  &_head {
+    margin-bottom: 20px;
+    color: white;
+  }
+  &_group {
+    margin-top: 80px; 
+    color: white;
+    &_button {
+      width: 100%;
+      margin: 40px auto;
+      @extend .button;
+    }
+  }
+}
+
+
+@media screen and (max-width: $mobile-width) {
+  .mode {
+    padding: 20px;
+    width: 100vw;
+    height: 300px;
+  }
+}
