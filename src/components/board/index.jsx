@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-import Player from '../player/Player';
-import Symbol from '../symbol/Symbol';
+import Player from '../Player';
+import Symbol from '../Symbol';
 
 import './Board.scss';
 
@@ -24,7 +24,7 @@ export default class Board extends Component {
 
 
   UNSAFE_componentWillMount = () => {
-    if(this.props.location.state) {
+    if(this.props.location && this.props.location.state) {
       const mode = this.props.location.state.mode;
       if(mode === 'Computer vs Computer') {
         const player1 = { name: 'Computer 1', symbol: '', score: 0, type: 'computer' };

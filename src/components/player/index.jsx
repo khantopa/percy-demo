@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import './Player.scss';
 
-import Symbol from '../symbol/Symbol';
+import Symbol from '../Symbol';
 
 
 const Player = (props) => {
