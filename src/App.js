@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Mode from './components/mode/Mode';
-import Board from './components/board/Board';
+import Mode from './components/Mode';
+import Board from './components/Board';
 
 import './App.scss';
 
